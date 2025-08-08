@@ -1,12 +1,12 @@
 :root {
-    --bs-primary: #1663c7; /* sample primary color */
+    --bs-primary: #1663c7;
     --bs-dark: #0d1321;
 }
 body {
     scroll-behavior: smooth;
 }
 .hero-section {
-    background: linear-gradient(145deg, #1663c7 0%, #0d1321 100%);
+    background: linear-gradient(rgba(22,99,199,0.7), rgba(13,19,33,0.8)), url('https://images.unsplash.com/photo-1550592704-6c76defa998d?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
     text-align: center;
 }
 .hero-section h1,

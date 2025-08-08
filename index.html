@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Binomics — Data & AI | Azure Solutions Partner</title>
+  <meta name="description" content="Convirtiendo datos en decisiones inteligentes. IA generativa, analítica avanzada, automatización y arquitecturas modernas de datos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <a href="#home" class="logo">
+      <img src="assets/logo.svg" alt="Binomics" onerror="this.src='assets/logo.png';" />
+    </a>
+    <nav class="nav">
+      <a href="#about">Quiénes somos</a>
+      <a href="#services">Servicios</a>
+      <a href="#cases">Casos de Éxito</a>
+      <a href="#benefits">Beneficios</a>
+      <a href="#clients">Clientes</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact" class="btn btn--primary">Contáctanos</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">🌓</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<main id="home">
+  <!-- HERO -->
+  <section class="hero" aria-label="Hero">
+    <canvas id="heroCanvas" class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1>Convirtiendo Datos en Decisiones Inteligentes</h1>
+      <p>Somos apasionados por los datos. Expertos en transformar información en valor a través de IA generativa, analítica avanzada y automatización.</p>
+      <div class="hero__actions">
+        <a href="#services" class="btn btn--primary">Hablemos de tu proyecto</a>
+        <a href="#contact" class="btn btn--ghost">Agenda una reunión</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container grid-2 fade">
+      <div>
+        <h2>Quiénes somos</h2>
+        <p>En Binomics contamos con consultores especializados en el tratamiento de datos, desde su extracción y transformación, hasta la generación de insights. Implementamos técnicas de análisis descriptivo, predictivo e Inteligencia Artificial Generativa.</p>
+        <p>Somos <strong>Solutions Partner Data & AI Azure</strong> de Microsoft.</p>
+      </div>
+      <div class="about__card">
+        <ul class="checklist">
+          <li>Machine learning y Data Mining</li>
+          <li>Azure AI & Synapse Analytics</li>
+          <li>Modelos predictivos: up/cross-sell, churn, fraude, sentimiento, SARLAF</li>
+          <li>Power Platform (Power BI, Power Apps, Power Automate, Copilot)</li>
+          <li>Arquitecturas Lakehouse y Modern Data Warehouse</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section alt">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="cards fade">
+        <article class="card">
+          <h3>Arquitectura de datos & Lakehouse</h3>
+          <p>Diseño e implementación de arquitecturas modernas en la nube y on-premises, flexibles y escalables.</p>
+        </article>
+        <article class="card">
+          <h3>Analítica avanzada</h3>
+          <p>Modelos predictivos y prescriptivos que habilitan decisiones basadas en datos.</p>
+        </article>
+        <article class="card">
+          <h3>IA Generativa</h3>
+          <p>Automatización y productividad con Microsoft Copilot y la suite de Azure AI.</p>
+        </article>
+        <article class="card">
+          <h3>RPA</h3>
+          <p>Automatización robótica de procesos para reducir tiempos y errores.</p>
+        </article>
+        <article class="card">
+          <h3>Power Platform</h3>
+          <p>Power BI, Power Apps, Power Automate y agentes conversacionales integrados a tus datos.</p>
+        </article>
+        <article class="card">
+          <h3>IoT & Big Data</h3>
+          <p>Conectividad en tiempo real y procesamiento a escala con Spark, Databricks y más.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section id="cases" class="section">
+    <div class="container">
+      <h2>Casos de Éxito</h2>
+      <div class="cases fade">
+        <div class="case">
+          <h4>Tiempo de reporte</h4>
+          <p><strong>-40%</strong> en tiempos de reporte mediante automatización y gobernanza.</p>
+        </div>
+        <div class="case">
+          <h4>Automatización</h4>
+          <p><strong>+100</strong> procesos críticos automatizados con RPA y flujos de datos.</p>
+        </div>
+        <div class="case">
+          <h4>Escalabilidad</h4>
+          <p>Arquitecturas Lakehouse que acompañan el crecimiento de la organización.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits" class="section alt">
+    <div class="container grid-3 fade">
+      <div class="benefit">
+        <h3>Nearshore</h3>
+        <p>Ubicación privilegiada en Bogotá para ofrecer servicios a toda América.</p>
+      </div>
+      <div class="benefit">
+        <h3>Fábrica de BI</h3>
+        <p>Equipo disponible para roles específicos o para tercerizar tus proyectos end-to-end.</p>
+      </div>
+      <div class="benefit">
+        <h3>Equipo senior</h3>
+        <p>Consultores certificados y con experiencia multi-industria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section id="clients" class="section">
+    <div class="container fade">
+      <h2>Clientes y aliados</h2>
+      <div class="logos">
+        <img src="assets/solutions-partner.png" alt="Microsoft Solutions Partner" />
+        <img src="assets/iamcp-gray.png" alt="IAMCP" />
+        <img src="assets/iamcp-black.png" alt="IAMCP" />
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="section alt">
+    <div class="container fade">
+      <h2>Insights</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>IA Generativa en analítica</h3>
+          <p>Cómo la IA Generativa está redefiniendo la analítica de datos.</p>
+          <a href="#" class="link">Leer más</a>
+        </article>
+        <article class="card">
+          <h3>Tendencias Power BI</h3>
+          <p>Visualización, semántica y gobierno en 2025.</p>
+          <a href="#" class="link">Leer más</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container grid-2 fade">
+      <div>
+        <h2>Conversemos</h2>
+        <p>Cuéntanos sobre tus objetivos. Te ayudamos a convertir datos en acciones.</p>
+        <ul class="contact-list">
+          <li><strong>Teléfono:</strong> 316 4716951 / 316 6118434</li>
+          <li><strong>Correo:</strong> contacto@binomics.co</li>
+          <li><strong>Oficina:</strong> Carrera 19 #100-45, WeWork — Bogotá, Colombia</li>
+        </ul>
+      </div>
+      <form id="contactForm" class="form" autocomplete="on" novalidate>
+        <label>Nombre<input name="name" required placeholder="Tu nombre"></label>
+        <label>Email<input name="email" type="email" required placeholder="tu@empresa.com"></label>
+        <label>Empresa<input name="company" placeholder="Nombre de la empresa"></label>
+        <label>Mensaje<textarea name="message" required placeholder="Cuéntanos sobre tu proyecto"></textarea></label>
+        <button type="submit" class="btn btn--primary">Enviar</button>
+        <p id="formStatus" class="form__status" role="status" aria-live="polite"></p>
+        <noscript><p>Si el formulario no carga, escríbenos a contacto@binomics.co</p></noscript>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="assets/logo.svg" alt="Binomics" onerror="this.src='assets/logo.png';" />
+      <p>© <span id="year"></span> Binomics. Todos los derechos reservados.</p>
+    </div>
+    <nav class="footer__nav">
+      <a href="#about">Quiénes somos</a>
+      <a href="#services">Servicios</a>
+      <a href="#contact">Contacto</a>
+      <a href="#blog">Blog</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
